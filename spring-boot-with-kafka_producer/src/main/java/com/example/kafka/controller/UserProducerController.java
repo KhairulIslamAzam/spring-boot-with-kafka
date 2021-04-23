@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/api")
-public class UserController {
+public class UserProducerController {
     @Autowired
     private KafkaTemplate<String,User> kafkaTemplate;
 
